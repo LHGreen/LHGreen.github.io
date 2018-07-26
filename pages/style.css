@@ -1,0 +1,119 @@
+body {
+	background-color: #FFFFFF;
+	margin:0px;
+	padding:0px;
+}
+
+h1,h2,h3,h4,h5 {
+	padding: 0px;
+	font-family: "Lora", sans-serif;
+}
+
+p {
+font-family: "Open Sans", sans-serif;
+}
+
+#container {
+	width: 100%;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+#header {
+	background-image: url("brain7.png");
+	max-height: 100%;
+	color: black;
+	padding: 50px 10px 180px 75px;
+}
+
+#header h1{
+	font-size: 250%;
+	font-family: "Lora", sans-serif;
+}
+
+#header li{
+	font-family: "Lora", serif;
+	font-size: 150%;
+	color: #1F1F1F;
+}
+
+#header ul{
+	list-style-type: none;
+	font-family: "Lora", sans-serif;
+}
+	
+#nav {
+font-family: "Open Sans", sans-serif;
+}
+
+#nav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+	background-color: #1F1F1F;
+	width: 100%;
+}
+
+#nav li {
+	float: left;
+}
+	
+#nav a {
+	display: block;
+	padding: 14px 16px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+#nav .selected {
+	font-weight: bold;
+	background-color: #397b7b;
+}	
+	
+#contain {
+	color: black;
+	padding: 0px;
+	}
+
+.main{
+	float: left;
+	padding: 20px 200px 20px 125px;
+	background-color: #EEE;
+}	
+
+#pic {
+	float: right;
+}
+
+#contact {
+	position: relative;
+	background-color: #333;
+	color: #FFF;
+	clear: both;
+	padding: 5px 10px 5px 10px;
+}
+
+#contact h2 {
+padding-left: 40px;
+}
+
+#contact h3 {
+	color: #9DBF59;
+	padding-top: 0px;
+}
+	
+#contact p {
+padding-left: 50px;
+}
+	
+#footer {
+	clear: both;
+	background-color: #1F1F1F;
+	color: #FFF;
+	padding: 20px;
+	text-align: right;
+}
